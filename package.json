@@ -1,0 +1,18 @@
+{
+  "name": "my-node-backend",
+  "module": "index.ts",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest",
+    "ts-node": "^10.9.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "mongoose": "^8.16.5",
+    "nodemon": "^3.1.10"
+  }
+}
