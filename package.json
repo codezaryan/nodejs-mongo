@@ -1,11 +1,12 @@
 {
   "name": "my-node-backend",
-  "module": "index.ts",
+  "module": "index.js",
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.ts",
-    "build": "tsc"
+    "dev": "nodemon index.js",
+    "build": "tsc",
+    "serve": "npm run build && npm start"
   },
   "devDependencies": {
     "@types/bun": "latest",
